@@ -1,4 +1,5 @@
-﻿<Router AppAssembly="typeof(Layout.MainLayout).Assembly">
+﻿@* This router is used by Maui, as different from RouterWeb in the Web project which is used by the web project. *@
+<Router AppAssembly="typeof(Layout.MainLayout).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="routeData" DefaultLayout="typeof(Layout.MainLayout)" />
         <FocusOnNavigate RouteData="routeData" Selector="h1" />
