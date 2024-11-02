@@ -1,6 +1,7 @@
-﻿<Router AppAssembly="typeof(Shared.Layout.MainLayout).Assembly" AdditionalAssemblies="[typeof(Pages.Test).Assembly]">
+﻿
+<Router AppAssembly="typeof(Shared.Layout.MainLayout).Assembly" AdditionalAssemblies="[typeof(Pages.Test).Assembly]">
     <Found Context="routeData">
-        <RouteView RouteData="routeData" DefaultLayout="typeof(Shared.Layout.MainLayout)" />
+        <RouteView RouteData="routeData" DefaultLayout="typeof(MauiApp5.Web.Components.Layout.MainLayoutWeb)" />
         <FocusOnNavigate RouteData="routeData" Selector="h1" />
     </Found>
 </Router>
